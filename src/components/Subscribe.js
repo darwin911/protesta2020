@@ -43,7 +43,10 @@ export const Subscribe = () => {
         <input
           id='tel'
           type='tel'
-          pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}'
+          min={10}
+          max={10}
+          title='809-555-5555'
+          pattern='[0-9]{3}[0-9]{3}[0-9]{4}'
           placeholder='809-555-5555'
           onChange={e => setTelephone(e.target.value)}
           value={telephone}
