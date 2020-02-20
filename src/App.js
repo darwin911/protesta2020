@@ -1,24 +1,17 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Carousel from './Carousel';
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <h1 style={{ fontSize: '3em' }}>Protesta 2020</h1>
+      <h3>Plaza de la Bandera</h3>
+      <p>Ya es hora.</p>
+      <div style={{ maxWidth: 800, margin: '0 auto' }}>
+        <Carousel />
+      </div>
     </div>
   );
 }
