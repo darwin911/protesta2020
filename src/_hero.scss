@@ -1,0 +1,14 @@
+.hero {
+  min-height: 100vh;
+  background: center/cover no-repeat url('./images/img.jpg');
+  box-shadow: inset 0 0 50em 50em rgba(0, 0, 0, 0.9), 0 0 1rem -5px rgba(0, 0, 0, 0.8);
+
+  header {
+    padding: 1.5rem 0;
+  }
+
+  &__heading {
+    font-size: 3em;
+    margin: 0;
+  }
+}

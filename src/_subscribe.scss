@@ -1,0 +1,26 @@
+.subscribe {
+  background: #222;
+  margin: 0 auto;
+  min-height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+
+    input {
+      margin-bottom: 1.2rem;
+    }
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
