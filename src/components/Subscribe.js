@@ -33,7 +33,7 @@ export const Subscribe = () => {
         <label htmlFor='email'>Email</label>
         <input
           id='email'
-          type='tel'
+          type='email'
           placeholder='nombre@email.com'
           required
           onChange={e => setEmail(e.target.value)}
